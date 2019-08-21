@@ -1,0 +1,225 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+#owl {
+	overflow: hidden;
+	z-index: 1;
+	padding-top: 20px;
+	position: relative;
+	margin: 0 -10px;
+	padding-bottom: 50px;
+}
+
+
+
+#owl .owl-item {
+	float: left;
+	width: 100%;
+}
+
+#owl .item {
+	padding: 0 10px;
+	position: relative;
+	text-align: left;
+}
+
+
+
+#owl .item p {
+	margin-bottom: 6px;
+}
+
+#owl a.gal {
+	display: block;
+	position: relative;
+	margin-bottom: 22px;
+}
+
+#owl a.gal img {
+	position: relative;
+	z-index: 1;
+	box-shadow: 0 0 0 #fff;
+	width: 100%;
+}
+
+#owl a.gal span {
+	display: block;
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	border: 0 solid #0C4DA2;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+
+
+#owl a.gal:hover span {
+	border-width: 18px;
+}
+
+.owl-wrapper-outer {
+	overflow: hidden;
+}
+
+
+#owl .owl-prev, #owl .owl-next {
+	cursor: pointer;
+	position: absolute;
+	background: url(../images/prevnext.png) 0 0 no-repeat;
+	display: block;
+	height: 37px;
+	right: 46px;
+	bottom: 0;
+	width: 36px;
+	overflow: hidden;
+	text-indent: -999px;
+
+}
+
+#owl .owl-next {
+	right: 10px;
+	background-position: right bottom;
+
+}
+#owl .owl-next:hover {
+	background-position: right 0;
+}
+
+#owl .owl-prev:hover {
+	background-position: 0 bottom;
+}
+
+
+
+
+
+/* Owl content */
+
+
+
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-webkit-perspective: 1000;
+}
+
+
+/*2nd*/
+#owl1 {
+	overflow: hidden;
+	z-index: 1;
+	margin-top: -70px;
+	position: relative;
+
+}
+
+
+#owl1 .owl-item {
+	float: left;
+	width: 100%;
+}
+
+
+#owl1  .item {
+	overflow: hidden;
+}
+
+#owl1 .alright span{
+	display: block;
+	margin-bottom: 3px;
+	padding-top: 18px;
+	font: 23px/18px 'Pacifico', cursive;
+}
+
+#owl1 .fleft {
+	margin-top: 0;
+	position: relative;
+	top: -3px;
+}
+
+.owl-wrapper-outer {
+	overflow: hidden;
+	padding-top: 68px;
+}
+
+
+#owl1 .owl-prev, #owl1 .owl-next {
+	cursor: pointer;
+	position: absolute;
+	background: url(../images/prevnext.png) 0 0 no-repeat;
+	display: block;
+	height: 37px;
+	right: 36px;
+	top: 0;
+	width: 36px;
+	overflow: hidden;
+	text-indent: -999px;
+
+}
+
+#owl1 .owl-next {
+	right: 0px;
+	background-position: right bottom;
+
+}
+#owl1 .owl-next:hover {
+	background-position: right 0;
+}
+
+
+
+#owl1 .owl-prev:hover {
+	background-position: 0 bottom;
+}
+
+
+/* 4-4-2015 */
+
+#owl-2 						{overflow:hidden; z-index:1; padding-top:20px; position:relative; margin:0 -10px; padding-bottom:50px;}
+#owl-2 .owl-item			{float:left; width:100%;}
+#owl-2 .item 				{padding:0 10px; position:relative; text-align:left;}
+#owl-2 .item p				{margin-bottom:6px;}
+#owl-2 a.gal				{display:block; position:relative; margin-bottom:22px;}
+#owl-2 a.gal img			{position:relative; z-index:1; box-shadow:0 0 0 #fff; width:100%;}
+#owl-2 a.gal span			{display:block; position:absolute; z-index:10; left:0; right:0; bottom:0; top:0; border:0 solid #b70000; transition:0.5s ease; -o-transition:0.5s ease; -webkit-transition:0.5s ease;}
+#owl-2 a.gal:hover span	{border-width:18px;}
+.owl-wrapper-outer		{overflow:hidden;}
+#owl-2 .owl-prev,
+#owl-2 .owl-next 			{cursor:pointer; position:absolute; background:url(../images/prevnext.png) 0 0 no-repeat; display:block; height:37px; right:46px; bottom:0; width:36px; overflow:hidden; text-indent:-999px;}
+#owl-2 .owl-next 			{right:10px; background-position:right bottom;}
+#owl-2 .owl-next:hover	{background-position:right 0;}
+#owl-2 .owl-prev:hover	{background-position:0 bottom;}
+
+#owl-2 .left_item			{/*float:left; width:26%;*/ padding:5%; background:#ffffff; color:#000000; display:inline-block;min-height: 162px;}
+#owl-2 .left_item h4, #owl-2 .left_item h4 a		{ margin:0 0 10px 0; padding:0; color:#6D8F4C;line-height: 24px;}
+#owl-2 .left_item h4 a:hover		{ color:#333;}
+#owl-2 .right_item		{/*float:right; width:65%;*/}
+
+.left_item_date			{float:left; width:40%; margin:0; padding:0; font-family: 'Patua One', cursive;}
+.left_item_cont			{float:left; width:100%; margin:0; padding:0;}
+.left_item_cont_more	{float:left; width:100%; margin:5px 0 0 0; padding:0;}
+.left_item_cont_more a	{color:#6D8F4C !important;}
+
+.left_item_date_date		{font-size:60px; line-height:normal;}
+.left_item_date_month	{font-size:30px; line-height:normal;}	
+
+
+/* Owl content */
+.owl-carousel .owl-wrapper	{display:none; position:relative; -webkit-transform:translate3d(0px, 0px, 0px); -webkit-perspective:1000;}
+
+/*2nd*/
+#owl1 						{overflow:hidden; z-index:1; margin-top:-70px; position:relative;}
+#owl1 .owl-item			{float:left; width:100%;}
+#owl1 .item 				{overflow:hidden;}
+#owl1 .alright span		{display:block; margin-bottom:3px; padding-top:18px; font:23px/18px 'Pacifico', cursive;}
+#owl1 .fleft 				{margin-top:0; position:relative; top:-3px;}
+.owl-wrapper-outer		{overflow:hidden; padding-top:/*68px;*/0px}
+#owl1 .owl-prev,
+#owl1 .owl-next 			{cursor:pointer; position:absolute; background:url(../images/prevnext.png) 0 0 no-repeat; display:block; height:37px; right:36px; top:0; width:36px; overflow:hidden; text-indent:-999px;}
+#owl1 .owl-next 			{right:0px; background-position:right bottom;}
+#owl1 .owl-next:hover 	{background-position:right 0;}
+#owl1 .owl-prev:hover 	{background-position:0 bottom;}
